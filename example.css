@@ -1,0 +1,29 @@
+body {
+	background: #931a2a;
+
+}
+
+header {
+	background-color: #ece3d7;
+	color: #000;
+	font-size :60px;
+	font-family: georgia, palatino, serif;
+	height: 75px;
+	padding: 50px;
+	margin: 50px;
+	/* background-image: url("urlgoeshere.png"); don't use images that are on the web, use from directory */ 
+	/* background-repeat: no-repeat; */
+}
+
+section {
+	background-color: #fff;
+	max-width: 700px;
+	padding: 10px;
+}
+
+article {
+	border-style: solid;
+	border-width: 3px;
+	margin: 5px;
+
+}
