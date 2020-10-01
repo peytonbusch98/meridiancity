@@ -3,9 +3,12 @@ body {
 }
 
 h1 {
-  font-size: 30px;
+  background-color: #ffc524;
+  font-size: 35px;
   font-family: arial,sans-serif;
   color: ##2b4063;
+  height: 40px;
+  padding: 1px;
   text-align: center;
 }
 
@@ -13,6 +16,22 @@ h2 {font-size: 24px;
   font-family: arial,sans-serif;
   color: ##2b4063;
   text-align: center;
+}
+
+h3 {font-size: 20px;
+  font-family: arial,sans-serif;
+  color: ##2b4063;
+  text-align: left;
+}
+
+h4 {font-size: 16px;
+  font-family: arial,sans-serif;
+  color: ##2b4063;
+  text-align: left;
+}
+
+p {
+    font-family: arial,sans-serif;
 }
 
 /* --- Nav Bar --- */
@@ -23,10 +42,17 @@ nav ul {
   overflow: hidden;
   background-color: #2b4063;
   font-family: arial,sans-serif;
+  border: 1px solid #2b4063
 }
 
 nav li {
   float: center;
+  text-align : center;
+    border-bottom : 1px solid #555;
+}
+
+li:last-child {
+    border-bottom : none;
 }
 
 nav li a {
