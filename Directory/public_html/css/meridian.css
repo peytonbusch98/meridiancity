@@ -1,0 +1,48 @@
+body {
+  background: #86b5eb;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: arial,sans-serif;
+  color: ##2b4063;
+  text-align: center;
+}
+
+h2 {font-size: 24px;
+  font-family: arial,sans-serif;
+  color: ##2b4063;
+  text-align: center;
+}
+
+/* --- Nav Bar --- */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2b4063;
+  font-family: arial,sans-serif;
+}
+
+nav li {
+  float: center;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 9px 9px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #ffc524;
+}
+
+footer {font-size: 14px;
+  font-family: arial,sans-serif;
+  color: ##2b4063;
+  text-align: center;
+}
