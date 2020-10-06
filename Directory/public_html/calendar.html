@@ -6,52 +6,66 @@
 
 <head>
 <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="css/meridian.css">
 
 <title>Meridian City</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/sandstone/bootstrap.min.css">
+
 </head>
 
-<img style="border: solid 15px #ffc524" src="img/meridiancity.png"/>
+<img src="img/meridiancity.png"/>
 
+<body>
 <header>
-<h1>Meridian City</h1>
-<nav>
-<ul>
-<li>
-<a href="index.html">Home</a>
-</li>
 
-<li>
-<a href="about.html">About</a>
-</li>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Meridian City</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-<li>
-<a href="news.html">News</a>
-</li>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-<li>
-<a href="tourism.html">Tourism</a>
-</li>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home </a>
+          </li>
 
-<li>
-<a href="calendar.html">Event Calendar</a>
-</li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
 
-<li>
-<a href="contact.html">Directory</a>
-</li>
-</ul>
-</nav>
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">News</a>
+          </li>
 
-</header>
+          <li class="nav-item">
+            <a class="nav-link" href="tourism.html">Tourism</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Event Calendar <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Directory</a>
+          </li>
+      </div>
+    </nav>
+
+<div class="container">
 
 <body>
 <h1>
 <p> Welcome to Meridian City!</p>
 </h1>
-<h2>
+<h3>
 <p>Here are some key dates to remember for September</p>
-</h2>
+</h3>
 <h3>Meridian City Food Bank Donations / September 4th</h3>
 <p>Meridian City Food Bank will be taking walk in donations on September 4th. These donations must be made up of non-parishable food items, any perishable food item will be refused by staff. We had a great turnout last year and hope to see the same or even better results this year!</p>
 <h3>Community Park Clean up Registration / September 16th</h3>
@@ -61,22 +75,16 @@
 <h3>Doggie Playdate in the Park / September 29th</h3>
 <p>Sunday is Doggie Playdate in the Park. Bring your furry friend so they can have a playdate with their friends. All dogs must be trustworthy around other dogs and nonreactive. Doggie bags will be provided for clean up.</p>
 
-<img style="border: solid 10px #ffc524" 
-src="img/dog.png"
-width='200'/>
+<img src="img/dog.png"
+<span class="border border-primary"></span>
+<class="class="rounded-circle">
 
-<head>
-<style>
-table, th, td {
-	border: 4px solid black;
-}
-</style>
-</head>
-<body>
+<div class="mx-auto" style="width: 200px;">
+  Calendar
+</div>
 
-<h2>Calendar</h2>
-
-	<table>
+<table class="table table-striped table-dark">
+	<thead>
 		<tr>
 			<th>Sunday</th>
 			<th>Monday</th>
@@ -138,3 +146,11 @@ table, th, td {
 <footer>
 <small>Mayor Robert Evans, meridiancity&commat;california.org</small>
 </footer>
+
+</div>
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>  </body>
+</html>
